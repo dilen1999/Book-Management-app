@@ -1,0 +1,12 @@
+C:\Users\DELL\Desktop\Full-Stack Assignment\BookManagementApp\Backend\src\BookMS.Domain\bin\Debug\net9.0\BookMS.Domain.deps.json
+C:\Users\DELL\Desktop\Full-Stack Assignment\BookManagementApp\Backend\src\BookMS.Domain\bin\Debug\net9.0\BookMS.Domain.dll
+C:\Users\DELL\Desktop\Full-Stack Assignment\BookManagementApp\Backend\src\BookMS.Domain\bin\Debug\net9.0\BookMS.Domain.pdb
+C:\Users\DELL\Desktop\Full-Stack Assignment\BookManagementApp\Backend\src\BookMS.Domain\obj\Debug\net9.0\BookMS.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\Full-Stack Assignment\BookManagementApp\Backend\src\BookMS.Domain\obj\Debug\net9.0\BookMS.Domain.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\Full-Stack Assignment\BookManagementApp\Backend\src\BookMS.Domain\obj\Debug\net9.0\BookMS.Domain.AssemblyInfo.cs
+C:\Users\DELL\Desktop\Full-Stack Assignment\BookManagementApp\Backend\src\BookMS.Domain\obj\Debug\net9.0\BookMS.Domain.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\Full-Stack Assignment\BookManagementApp\Backend\src\BookMS.Domain\obj\Debug\net9.0\BookMS.Domain.sourcelink.json
+C:\Users\DELL\Desktop\Full-Stack Assignment\BookManagementApp\Backend\src\BookMS.Domain\obj\Debug\net9.0\BookMS.Domain.dll
+C:\Users\DELL\Desktop\Full-Stack Assignment\BookManagementApp\Backend\src\BookMS.Domain\obj\Debug\net9.0\refint\BookMS.Domain.dll
+C:\Users\DELL\Desktop\Full-Stack Assignment\BookManagementApp\Backend\src\BookMS.Domain\obj\Debug\net9.0\BookMS.Domain.pdb
+C:\Users\DELL\Desktop\Full-Stack Assignment\BookManagementApp\Backend\src\BookMS.Domain\obj\Debug\net9.0\ref\BookMS.Domain.dll
