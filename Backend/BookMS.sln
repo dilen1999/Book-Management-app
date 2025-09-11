@@ -15,6 +15,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookMS.WebApi", "src\BookMS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookMS.Tests", "tests\BookMS.Tests\BookMS.Tests.csproj", "{C6AFF90A-415C-4C76-A9FE-0EBC8D99F34D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		.env = .env
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -95,5 +102,8 @@ Global
 		{A24BBA00-CDDD-4A8F-8403-70AC62536AC8} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 		{C4B9BD1A-D18B-4D38-A489-DEA7DDCCBBF6} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 		{C6AFF90A-415C-4C76-A9FE-0EBC8D99F34D} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {55F68320-E31B-4470-96A8-1DE658EBC91A}
 	EndGlobalSection
 EndGlobal
