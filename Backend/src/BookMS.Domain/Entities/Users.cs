@@ -14,6 +14,7 @@ namespace BookMS.Domain.Entities
         public string Name { get; set; } = default!;
         public AuthProvider Provider { get; set; } = default!; 
         public string ProviderUserId { get; set; } = default!;
+        public string? PasswordHash { get; set; }
         public DateTime? LastLoginAt { get; set; }
 
         //Relationships

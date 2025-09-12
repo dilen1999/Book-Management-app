@@ -21,6 +21,9 @@ namespace BookMS.Infrastructure.Persistence
         public DbSet<BookCategories> BookCategories => Set<BookCategories>();
         public DbSet<Users> Users => Set<Users>();
         public DbSet<Roles> Roles => Set<Roles>();
+        public DbSet<RefreshToken> RefreshTokens => Set<RefreshToken>();
+
+        
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -101,6 +104,20 @@ namespace BookMS.Infrastructure.Persistence
                 bc.HasOne(x => x.Categories)
                   .WithMany(c => c.Books)
                   .HasForeignKey(x => x.CategoryId)
+                  .OnDelete(DeleteBehavior.Cascade);
+            });
+
+            // ---------- Refresh Token ----------
+            modelBuilder.Entity<RefreshToken>(rt =>
+            {
+                rt.HasKey(x => x.Id);
+                rt.HasIndex(x => x.Token).IsUnique();
+                rt.Property(x => x.Token).IsRequired().HasMaxLength(512);
+                rt.Property(x => x.ExpiresAt).IsRequired();
+
+                rt.HasOne(x => x.User)
+                  .WithMany()           // or .WithMany(u => u.RefreshTokens) if you add nav on Users
+                  .HasForeignKey(x => x.UserId)
                   .OnDelete(DeleteBehavior.Cascade);
             });
 

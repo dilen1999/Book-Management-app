@@ -179,3 +179,4 @@ C:\Users\DELL\Desktop\Full-Stack Assignment\BookManagementApp\Backend\src\BookMS
 C:\Users\DELL\Desktop\Full-Stack Assignment\BookManagementApp\Backend\src\BookMS.WebApi\obj\Debug\net9.0\BookMS.WebApi.pdb
 C:\Users\DELL\Desktop\Full-Stack Assignment\BookManagementApp\Backend\src\BookMS.WebApi\obj\Debug\net9.0\BookMS.WebApi.genruntimeconfig.cache
 C:\Users\DELL\Desktop\Full-Stack Assignment\BookManagementApp\Backend\src\BookMS.WebApi\obj\Debug\net9.0\ref\BookMS.WebApi.dll
+C:\Users\DELL\Desktop\Full-Stack Assignment\BookManagementApp\Backend\src\BookMS.WebApi\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

@@ -5,3 +5,4 @@ global using BookAuthorEntity = BookMS.Domain.Entities.BookAuthors;
 global using BookCategoryEntity = BookMS.Domain.Entities.BookCategories;
 global using UserEntity = BookMS.Domain.Entities.Users;
 global using RoleEntity = BookMS.Domain.Entities.Roles;
+global using RefreshTokenEntity = BookMS.Domain.Entities.RefreshToken;

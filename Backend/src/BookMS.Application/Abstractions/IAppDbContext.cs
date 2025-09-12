@@ -17,6 +17,7 @@ namespace BookMS.Application.Abstractions
         DbSet<BookCategoryEntity> BookCategories { get; }
         DbSet<UserEntity> Users { get; }
         DbSet<RoleEntity> Roles { get; }
+        DbSet<RefreshToken> RefreshTokens { get; }
         Task<int> SaveChangesAsync(CancellationToken ct);
     }
 }
