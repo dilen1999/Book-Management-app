@@ -24,7 +24,6 @@ C:\Users\DELL\Desktop\Full-Stack Assignment\BookManagementApp\Backend\tests\Book
 C:\Users\DELL\Desktop\Full-Stack Assignment\BookManagementApp\Backend\tests\BookMS.Tests\bin\Debug\net9.0\Humanizer.dll
 C:\Users\DELL\Desktop\Full-Stack Assignment\BookManagementApp\Backend\tests\BookMS.Tests\bin\Debug\net9.0\MediatR.dll
 C:\Users\DELL\Desktop\Full-Stack Assignment\BookManagementApp\Backend\tests\BookMS.Tests\bin\Debug\net9.0\MediatR.Contracts.dll
-C:\Users\DELL\Desktop\Full-Stack Assignment\BookManagementApp\Backend\tests\BookMS.Tests\bin\Debug\net9.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\DELL\Desktop\Full-Stack Assignment\BookManagementApp\Backend\tests\BookMS.Tests\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
 C:\Users\DELL\Desktop\Full-Stack Assignment\BookManagementApp\Backend\tests\BookMS.Tests\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\DELL\Desktop\Full-Stack Assignment\BookManagementApp\Backend\tests\BookMS.Tests\bin\Debug\net9.0\Microsoft.Build.Locator.dll

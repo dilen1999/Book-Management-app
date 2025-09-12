@@ -6,7 +6,5 @@ using System.Threading.Tasks;
 
 namespace BookMS.Application.DTOs
 {
-    internal class AuthDtos
-    {
-    }
+    public record BookDto(Guid Id, string Title, string? Isbn, int? PublishedYear);
 }

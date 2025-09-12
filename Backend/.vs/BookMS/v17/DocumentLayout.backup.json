@@ -7,16 +7,100 @@
       "RelativeMoniker": "D:0:0:{C4B9BD1A-D18B-4D38-A489-DEA7DDCCBBF6}|src\\BookMS.WebApi\\BookMS.WebApi.csproj|solutionrelative:src\\bookms.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C4B9BD1A-D18B-4D38-A489-DEA7DDCCBBF6}|src\\BookMS.WebApi\\BookMS.WebApi.csproj|c:\\users\\dell\\desktop\\full-stack assignment\\bookmanagementapp\\backend\\src\\bookms.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C4B9BD1A-D18B-4D38-A489-DEA7DDCCBBF6}|src\\BookMS.WebApi\\BookMS.WebApi.csproj|solutionrelative:src\\bookms.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Infrastructure\\Migrations\\20250911195830_nfajksd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\BookMS.Infrastructure\\Migrations\\20250911195830_nfajksd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A24BBA00-CDDD-4A8F-8403-70AC62536AC8}|src\\BookMS.Infrastructure\\BookMS.Infrastructure.csproj|c:\\users\\dell\\desktop\\full-stack assignment\\bookmanagementapp\\backend\\src\\bookms.infrastructure\\migrations\\20250911194948_sadn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A24BBA00-CDDD-4A8F-8403-70AC62536AC8}|src\\BookMS.Infrastructure\\BookMS.Infrastructure.csproj|solutionrelative:src\\bookms.infrastructure\\migrations\\20250911194948_sadn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D01C65DC-B28F-470A-9FD4-C34F99C071A5}|src\\BookMS.Application\\BookMS.Application.csproj|c:\\users\\dell\\desktop\\full-stack assignment\\bookmanagementapp\\backend\\src\\bookms.application\\bookms.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D01C65DC-B28F-470A-9FD4-C34F99C071A5}|src\\BookMS.Application\\BookMS.Application.csproj|solutionrelative:src\\bookms.application\\bookms.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D00B9CFE-AF6A-4098-A377-D19F0F0B4DF1}|src\\BookMS.Domain\\BookMS.Domain.csproj|c:\\users\\dell\\desktop\\full-stack assignment\\bookmanagementapp\\backend\\src\\bookms.domain\\entities\\books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D00B9CFE-AF6A-4098-A377-D19F0F0B4DF1}|src\\BookMS.Domain\\BookMS.Domain.csproj|solutionrelative:src\\bookms.domain\\entities\\books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D00B9CFE-AF6A-4098-A377-D19F0F0B4DF1}|src\\BookMS.Domain\\BookMS.Domain.csproj|c:\\users\\dell\\desktop\\full-stack assignment\\bookmanagementapp\\backend\\src\\bookms.domain\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D00B9CFE-AF6A-4098-A377-D19F0F0B4DF1}|src\\BookMS.Domain\\BookMS.Domain.csproj|solutionrelative:src\\bookms.domain\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4B9BD1A-D18B-4D38-A489-DEA7DDCCBBF6}|src\\BookMS.WebApi\\BookMS.WebApi.csproj|c:\\users\\dell\\desktop\\full-stack assignment\\bookmanagementapp\\backend\\src\\bookms.webapi\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4B9BD1A-D18B-4D38-A489-DEA7DDCCBBF6}|src\\BookMS.WebApi\\BookMS.WebApi.csproj|solutionrelative:src\\bookms.webapi\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D00B9CFE-AF6A-4098-A377-D19F0F0B4DF1}|src\\BookMS.Domain\\BookMS.Domain.csproj|c:\\users\\dell\\desktop\\full-stack assignment\\bookmanagementapp\\backend\\src\\bookms.domain\\entities\\bookauthors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D00B9CFE-AF6A-4098-A377-D19F0F0B4DF1}|src\\BookMS.Domain\\BookMS.Domain.csproj|solutionrelative:src\\bookms.domain\\entities\\bookauthors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A24BBA00-CDDD-4A8F-8403-70AC62536AC8}|src\\BookMS.Infrastructure\\BookMS.Infrastructure.csproj|c:\\users\\dell\\desktop\\full-stack assignment\\bookmanagementapp\\backend\\src\\bookms.infrastructure\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A24BBA00-CDDD-4A8F-8403-70AC62536AC8}|src\\BookMS.Infrastructure\\BookMS.Infrastructure.csproj|solutionrelative:src\\bookms.infrastructure\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D01C65DC-B28F-470A-9FD4-C34F99C071A5}|src\\BookMS.Application\\BookMS.Application.csproj|c:\\users\\dell\\desktop\\full-stack assignment\\bookmanagementapp\\backend\\src\\bookms.application\\common\\behaviors\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D01C65DC-B28F-470A-9FD4-C34F99C071A5}|src\\BookMS.Application\\BookMS.Application.csproj|solutionrelative:src\\bookms.application\\common\\behaviors\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D01C65DC-B28F-470A-9FD4-C34F99C071A5}|src\\BookMS.Application\\BookMS.Application.csproj|c:\\users\\dell\\desktop\\full-stack assignment\\bookmanagementapp\\backend\\src\\bookms.application\\book\\queries\\getbookspaged\\getbookspagedqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D01C65DC-B28F-470A-9FD4-C34F99C071A5}|src\\BookMS.Application\\BookMS.Application.csproj|solutionrelative:src\\bookms.application\\book\\queries\\getbookspaged\\getbookspagedqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D01C65DC-B28F-470A-9FD4-C34F99C071A5}|src\\BookMS.Application\\BookMS.Application.csproj|c:\\users\\dell\\desktop\\full-stack assignment\\bookmanagementapp\\backend\\src\\bookms.application\\book\\queries\\getbookspaged\\getbookspagedquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D01C65DC-B28F-470A-9FD4-C34F99C071A5}|src\\BookMS.Application\\BookMS.Application.csproj|solutionrelative:src\\bookms.application\\book\\queries\\getbookspaged\\getbookspagedquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D01C65DC-B28F-470A-9FD4-C34F99C071A5}|src\\BookMS.Application\\BookMS.Application.csproj|c:\\users\\dell\\desktop\\full-stack assignment\\bookmanagementapp\\backend\\src\\bookms.application\\book\\queries\\getbookbyid\\getbookbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D01C65DC-B28F-470A-9FD4-C34F99C071A5}|src\\BookMS.Application\\BookMS.Application.csproj|solutionrelative:src\\bookms.application\\book\\queries\\getbookbyid\\getbookbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D01C65DC-B28F-470A-9FD4-C34F99C071A5}|src\\BookMS.Application\\BookMS.Application.csproj|c:\\users\\dell\\desktop\\full-stack assignment\\bookmanagementapp\\backend\\src\\bookms.application\\book\\queries\\getbookbyid\\getbookbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D01C65DC-B28F-470A-9FD4-C34F99C071A5}|src\\BookMS.Application\\BookMS.Application.csproj|solutionrelative:src\\bookms.application\\book\\queries\\getbookbyid\\getbookbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D01C65DC-B28F-470A-9FD4-C34F99C071A5}|src\\BookMS.Application\\BookMS.Application.csproj|c:\\users\\dell\\desktop\\full-stack assignment\\bookmanagementapp\\backend\\src\\bookms.application\\book\\commands\\createbook\\createbookcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D01C65DC-B28F-470A-9FD4-C34F99C071A5}|src\\BookMS.Application\\BookMS.Application.csproj|solutionrelative:src\\bookms.application\\book\\commands\\createbook\\createbookcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D01C65DC-B28F-470A-9FD4-C34F99C071A5}|src\\BookMS.Application\\BookMS.Application.csproj|c:\\users\\dell\\desktop\\full-stack assignment\\bookmanagementapp\\backend\\src\\bookms.application\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D01C65DC-B28F-470A-9FD4-C34F99C071A5}|src\\BookMS.Application\\BookMS.Application.csproj|solutionrelative:src\\bookms.application\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D01C65DC-B28F-470A-9FD4-C34F99C071A5}|src\\BookMS.Application\\BookMS.Application.csproj|c:\\users\\dell\\desktop\\full-stack assignment\\bookmanagementapp\\backend\\src\\bookms.application\\abstractions\\iappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D01C65DC-B28F-470A-9FD4-C34F99C071A5}|src\\BookMS.Application\\BookMS.Application.csproj|solutionrelative:src\\bookms.application\\abstractions\\iappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D01C65DC-B28F-470A-9FD4-C34F99C071A5}|src\\BookMS.Application\\BookMS.Application.csproj|c:\\users\\dell\\desktop\\full-stack assignment\\bookmanagementapp\\backend\\src\\bookms.application\\globalentityaliases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D01C65DC-B28F-470A-9FD4-C34F99C071A5}|src\\BookMS.Application\\BookMS.Application.csproj|solutionrelative:src\\bookms.application\\globalentityaliases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D01C65DC-B28F-470A-9FD4-C34F99C071A5}|src\\BookMS.Application\\BookMS.Application.csproj|c:\\users\\dell\\desktop\\full-stack assignment\\bookmanagementapp\\backend\\src\\bookms.application\\book\\dtos\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D01C65DC-B28F-470A-9FD4-C34F99C071A5}|src\\BookMS.Application\\BookMS.Application.csproj|solutionrelative:src\\bookms.application\\book\\dtos\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D01C65DC-B28F-470A-9FD4-C34F99C071A5}|src\\BookMS.Application\\BookMS.Application.csproj|c:\\users\\dell\\desktop\\full-stack assignment\\bookmanagementapp\\backend\\src\\bookms.application\\book\\commands\\createbook\\createbookcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D01C65DC-B28F-470A-9FD4-C34F99C071A5}|src\\BookMS.Application\\BookMS.Application.csproj|solutionrelative:src\\bookms.application\\book\\commands\\createbook\\createbookcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D01C65DC-B28F-470A-9FD4-C34F99C071A5}|src\\BookMS.Application\\BookMS.Application.csproj|c:\\users\\dell\\desktop\\full-stack assignment\\bookmanagementapp\\backend\\src\\bookms.application\\book\\commands\\createbook\\createbookcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D01C65DC-B28F-470A-9FD4-C34F99C071A5}|src\\BookMS.Application\\BookMS.Application.csproj|solutionrelative:src\\bookms.application\\book\\commands\\createbook\\createbookcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C4B9BD1A-D18B-4D38-A489-DEA7DDCCBBF6}|src\\BookMS.WebApi\\BookMS.WebApi.csproj|c:\\users\\dell\\desktop\\full-stack assignment\\bookmanagementapp\\backend\\src\\bookms.webapi\\controllers\\pingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4B9BD1A-D18B-4D38-A489-DEA7DDCCBBF6}|src\\BookMS.WebApi\\BookMS.WebApi.csproj|solutionrelative:src\\bookms.webapi\\controllers\\pingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|solutionrelative:.env||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4B9BD1A-D18B-4D38-A489-DEA7DDCCBBF6}|src\\BookMS.WebApi\\BookMS.WebApi.csproj|c:\\users\\dell\\desktop\\full-stack assignment\\bookmanagementapp\\backend\\src\\bookms.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C4B9BD1A-D18B-4D38-A489-DEA7DDCCBBF6}|src\\BookMS.WebApi\\BookMS.WebApi.csproj|solutionrelative:src\\bookms.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
@@ -27,20 +111,8 @@
       "RelativeMoniker": "D:0:0:{C4B9BD1A-D18B-4D38-A489-DEA7DDCCBBF6}|src\\BookMS.WebApi\\BookMS.WebApi.csproj|solutionrelative:src\\bookms.webapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A24BBA00-CDDD-4A8F-8403-70AC62536AC8}|src\\BookMS.Infrastructure\\BookMS.Infrastructure.csproj|c:\\users\\dell\\desktop\\full-stack assignment\\bookmanagementapp\\backend\\src\\bookms.infrastructure\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A24BBA00-CDDD-4A8F-8403-70AC62536AC8}|src\\BookMS.Infrastructure\\BookMS.Infrastructure.csproj|solutionrelative:src\\bookms.infrastructure\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Infrastructure\\Migrations\\20250911055003_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\BookMS.Infrastructure\\Migrations\\20250911055003_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D00B9CFE-AF6A-4098-A377-D19F0F0B4DF1}|src\\BookMS.Domain\\BookMS.Domain.csproj|c:\\users\\dell\\desktop\\full-stack assignment\\bookmanagementapp\\backend\\src\\bookms.domain\\enums\\authprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D00B9CFE-AF6A-4098-A377-D19F0F0B4DF1}|src\\BookMS.Domain\\BookMS.Domain.csproj|solutionrelative:src\\bookms.domain\\enums\\authprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D00B9CFE-AF6A-4098-A377-D19F0F0B4DF1}|src\\BookMS.Domain\\BookMS.Domain.csproj|c:\\users\\dell\\desktop\\full-stack assignment\\bookmanagementapp\\backend\\src\\bookms.domain\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D00B9CFE-AF6A-4098-A377-D19F0F0B4DF1}|src\\BookMS.Domain\\BookMS.Domain.csproj|solutionrelative:src\\bookms.domain\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D00B9CFE-AF6A-4098-A377-D19F0F0B4DF1}|src\\BookMS.Domain\\BookMS.Domain.csproj|c:\\users\\dell\\desktop\\full-stack assignment\\bookmanagementapp\\backend\\src\\bookms.domain\\entities\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,24 +123,12 @@
       "RelativeMoniker": "D:0:0:{D00B9CFE-AF6A-4098-A377-D19F0F0B4DF1}|src\\BookMS.Domain\\BookMS.Domain.csproj|solutionrelative:src\\bookms.domain\\entities\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D00B9CFE-AF6A-4098-A377-D19F0F0B4DF1}|src\\BookMS.Domain\\BookMS.Domain.csproj|c:\\users\\dell\\desktop\\full-stack assignment\\bookmanagementapp\\backend\\src\\bookms.domain\\entities\\books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D00B9CFE-AF6A-4098-A377-D19F0F0B4DF1}|src\\BookMS.Domain\\BookMS.Domain.csproj|solutionrelative:src\\bookms.domain\\entities\\books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D00B9CFE-AF6A-4098-A377-D19F0F0B4DF1}|src\\BookMS.Domain\\BookMS.Domain.csproj|c:\\users\\dell\\desktop\\full-stack assignment\\bookmanagementapp\\backend\\src\\bookms.domain\\entities\\bookcategories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D00B9CFE-AF6A-4098-A377-D19F0F0B4DF1}|src\\BookMS.Domain\\BookMS.Domain.csproj|solutionrelative:src\\bookms.domain\\entities\\bookcategories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D00B9CFE-AF6A-4098-A377-D19F0F0B4DF1}|src\\BookMS.Domain\\BookMS.Domain.csproj|c:\\users\\dell\\desktop\\full-stack assignment\\bookmanagementapp\\backend\\src\\bookms.domain\\entities\\bookauthors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D00B9CFE-AF6A-4098-A377-D19F0F0B4DF1}|src\\BookMS.Domain\\BookMS.Domain.csproj|solutionrelative:src\\bookms.domain\\entities\\bookauthors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D00B9CFE-AF6A-4098-A377-D19F0F0B4DF1}|src\\BookMS.Domain\\BookMS.Domain.csproj|c:\\users\\dell\\desktop\\full-stack assignment\\bookmanagementapp\\backend\\src\\bookms.domain\\entities\\authors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D00B9CFE-AF6A-4098-A377-D19F0F0B4DF1}|src\\BookMS.Domain\\BookMS.Domain.csproj|solutionrelative:src\\bookms.domain\\entities\\authors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C4B9BD1A-D18B-4D38-A489-DEA7DDCCBBF6}|src\\BookMS.WebApi\\BookMS.WebApi.csproj|c:\\users\\dell\\desktop\\full-stack assignment\\bookmanagementapp\\backend\\src\\bookms.webapi\\controllers\\pingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4B9BD1A-D18B-4D38-A489-DEA7DDCCBBF6}|src\\BookMS.WebApi\\BookMS.WebApi.csproj|solutionrelative:src\\bookms.webapi\\controllers\\pingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D00B9CFE-AF6A-4098-A377-D19F0F0B4DF1}|src\\BookMS.Domain\\BookMS.Domain.csproj|c:\\users\\dell\\desktop\\full-stack assignment\\bookmanagementapp\\backend\\src\\bookms.domain\\entities\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -99,14 +159,6 @@
       "RelativeMoniker": "D:0:0:{D01C65DC-B28F-470A-9FD4-C34F99C071A5}|src\\BookMS.Application\\BookMS.Application.csproj|solutionrelative:src\\bookms.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D01C65DC-B28F-470A-9FD4-C34F99C071A5}|src\\BookMS.Application\\BookMS.Application.csproj|c:\\users\\dell\\desktop\\full-stack assignment\\bookmanagementapp\\backend\\src\\bookms.application\\bookms.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{D01C65DC-B28F-470A-9FD4-C34F99C071A5}|src\\BookMS.Application\\BookMS.Application.csproj|solutionrelative:src\\bookms.application\\bookms.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D01C65DC-B28F-470A-9FD4-C34F99C071A5}|src\\BookMS.Application\\BookMS.Application.csproj|c:\\users\\dell\\desktop\\full-stack assignment\\bookmanagementapp\\backend\\src\\bookms.application\\dtos\\authdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D01C65DC-B28F-470A-9FD4-C34F99C071A5}|src\\BookMS.Application\\BookMS.Application.csproj|solutionrelative:src\\bookms.application\\dtos\\authdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D01C65DC-B28F-470A-9FD4-C34F99C071A5}|src\\BookMS.Application\\BookMS.Application.csproj|c:\\users\\dell\\desktop\\full-stack assignment\\bookmanagementapp\\backend\\src\\bookms.application\\common\\exceptions\\appexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D01C65DC-B28F-470A-9FD4-C34F99C071A5}|src\\BookMS.Application\\BookMS.Application.csproj|solutionrelative:src\\bookms.application\\common\\exceptions\\appexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -125,6 +177,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{D00B9CFE-AF6A-4098-A377-D19F0F0B4DF1}|src\\BookMS.Domain\\BookMS.Domain.csproj|c:\\users\\dell\\desktop\\full-stack assignment\\bookmanagementapp\\backend\\src\\bookms.domain\\bookms.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{D00B9CFE-AF6A-4098-A377-D19F0F0B4DF1}|src\\BookMS.Domain\\BookMS.Domain.csproj|solutionrelative:src\\bookms.domain\\bookms.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A24BBA00-CDDD-4A8F-8403-70AC62536AC8}|src\\BookMS.Infrastructure\\BookMS.Infrastructure.csproj|c:\\users\\dell\\desktop\\full-stack assignment\\bookmanagementapp\\backend\\src\\bookms.infrastructure\\migrations\\20250911055003_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A24BBA00-CDDD-4A8F-8403-70AC62536AC8}|src\\BookMS.Infrastructure\\BookMS.Infrastructure.csproj|solutionrelative:src\\bookms.infrastructure\\migrations\\20250911055003_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -134,85 +190,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": ".dockerignore",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\.dockerignore",
-              "RelativeDocumentMoniker": ".dockerignore",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\.dockerignore",
-              "RelativeToolTip": ".dockerignore",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-09-11T06:14:19.182Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.WebApi\\Dockerfile",
-              "RelativeDocumentMoniker": "src\\BookMS.WebApi\\Dockerfile",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.WebApi\\Dockerfile",
-              "RelativeToolTip": "src\\BookMS.WebApi\\Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-09-11T06:13:20.933Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": ".env",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\.env",
-              "RelativeDocumentMoniker": ".env",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\.env",
-              "RelativeToolTip": ".env",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-09-11T06:11:24.252Z",
+              "DocumentIndex": 1,
+              "Title": "20250911195830_nfajksd.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Infrastructure\\Migrations\\20250911195830_nfajksd.cs",
+              "RelativeDocumentMoniker": "src\\BookMS.Infrastructure\\Migrations\\20250911195830_nfajksd.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Infrastructure\\Migrations\\20250911195830_nfajksd.cs",
+              "RelativeToolTip": "src\\BookMS.Infrastructure\\Migrations\\20250911195830_nfajksd.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T19:58:30.874Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "docker-compose.yml",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\docker-compose.yml",
-              "RelativeDocumentMoniker": "docker-compose.yml",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\docker-compose.yml",
-              "RelativeToolTip": "docker-compose.yml",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAkwCwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2025-09-11T06:10:40.941Z",
+              "Title": "20250911194948_sadn.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Infrastructure\\Migrations\\20250911194948_sadn.cs",
+              "RelativeDocumentMoniker": "src\\BookMS.Infrastructure\\Migrations\\20250911194948_sadn.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Infrastructure\\Migrations\\20250911194948_sadn.cs",
+              "RelativeToolTip": "src\\BookMS.Infrastructure\\Migrations\\20250911194948_sadn.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T19:49:48.773Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "20250911055003_init.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Infrastructure\\Migrations\\20250911055003_init.cs",
-              "RelativeDocumentMoniker": "src\\BookMS.Infrastructure\\Migrations\\20250911055003_init.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Infrastructure\\Migrations\\20250911055003_init.cs",
-              "RelativeToolTip": "src\\BookMS.Infrastructure\\Migrations\\20250911055003_init.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.WebApi\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "src\\BookMS.WebApi\\Controllers\\BooksController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.WebApi\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "src\\BookMS.WebApi\\Controllers\\BooksController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-11T05:50:04.079Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "PingController.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.WebApi\\Controllers\\PingController.cs",
-              "RelativeDocumentMoniker": "src\\BookMS.WebApi\\Controllers\\PingController.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.WebApi\\Controllers\\PingController.cs",
-              "RelativeToolTip": "src\\BookMS.WebApi\\Controllers\\PingController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-11T05:38:28.834Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-11T19:10:22.573Z"
             },
             {
               "$type": "Document",
@@ -222,66 +238,98 @@
               "RelativeDocumentMoniker": "src\\BookMS.WebApi\\Program.cs",
               "ToolTip": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.WebApi\\Program.cs",
               "RelativeToolTip": "src\\BookMS.WebApi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAC8AAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-11T05:31:42.465Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.WebApi\\appsettings.json",
-              "RelativeDocumentMoniker": "src\\BookMS.WebApi\\appsettings.json",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.WebApi\\appsettings.json",
-              "RelativeToolTip": "src\\BookMS.WebApi\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-11T04:46:14.132Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Infrastructure\\Persistence\\AppDbContext.cs",
               "RelativeDocumentMoniker": "src\\BookMS.Infrastructure\\Persistence\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Infrastructure\\Persistence\\AppDbContext.cs",
               "RelativeToolTip": "src\\BookMS.Infrastructure\\Persistence\\AppDbContext.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAwGsAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-10T18:55:42.879Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-10T18:55:42.879Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
+              "Title": "Books.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Domain\\Entities\\Books.cs",
+              "RelativeDocumentMoniker": "src\\BookMS.Domain\\Entities\\Books.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Domain\\Entities\\Books.cs",
+              "RelativeToolTip": "src\\BookMS.Domain\\Entities\\Books.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T18:09:40.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Domain\\Common\\BaseEntity.cs",
               "RelativeDocumentMoniker": "src\\BookMS.Domain\\Common\\BaseEntity.cs",
               "ToolTip": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Domain\\Common\\BaseEntity.cs",
               "RelativeToolTip": "src\\BookMS.Domain\\Common\\BaseEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-10T18:00:58.684Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-10T18:00:58.684Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Authors.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Domain\\Entities\\Authors.cs",
-              "RelativeDocumentMoniker": "src\\BookMS.Domain\\Entities\\Authors.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Domain\\Entities\\Authors.cs",
-              "RelativeToolTip": "src\\BookMS.Domain\\Entities\\Authors.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "ValidationBehavior.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\Common\\Behaviors\\ValidationBehavior.cs",
+              "RelativeDocumentMoniker": "src\\BookMS.Application\\Common\\Behaviors\\ValidationBehavior.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\Common\\Behaviors\\ValidationBehavior.cs",
+              "RelativeToolTip": "src\\BookMS.Application\\Common\\Behaviors\\ValidationBehavior.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-10T18:10:00.354Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-11T18:50:18.593Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 10,
+              "Title": "GetBooksPagedQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\Book\\Queries\\GetBooksPaged\\GetBooksPagedQueryHandler.cs",
+              "RelativeDocumentMoniker": "src\\BookMS.Application\\Book\\Queries\\GetBooksPaged\\GetBooksPagedQueryHandler.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\Book\\Queries\\GetBooksPaged\\GetBooksPagedQueryHandler.cs",
+              "RelativeToolTip": "src\\BookMS.Application\\Book\\Queries\\GetBooksPaged\\GetBooksPagedQueryHandler.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T18:42:36.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BookMS.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\BookMS.Application.csproj",
+              "RelativeDocumentMoniker": "src\\BookMS.Application\\BookMS.Application.csproj",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\BookMS.Application.csproj",
+              "RelativeToolTip": "src\\BookMS.Application\\BookMS.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-10T18:50:40.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GetBooksPagedQuery.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\Book\\Queries\\GetBooksPaged\\GetBooksPagedQuery.cs",
+              "RelativeDocumentMoniker": "src\\BookMS.Application\\Book\\Queries\\GetBooksPaged\\GetBooksPagedQuery.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\Book\\Queries\\GetBooksPaged\\GetBooksPagedQuery.cs",
+              "RelativeToolTip": "src\\BookMS.Application\\Book\\Queries\\GetBooksPaged\\GetBooksPagedQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T18:42:21.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "BookAuthors.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Domain\\Entities\\BookAuthors.cs",
               "RelativeDocumentMoniker": "src\\BookMS.Domain\\Entities\\BookAuthors.cs",
@@ -289,12 +337,215 @@
               "RelativeToolTip": "src\\BookMS.Domain\\Entities\\BookAuthors.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-10T18:13:00.742Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-10T18:13:00.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GetBookByIdQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\Book\\Queries\\GetBookById\\GetBookByIdQueryHandler.cs",
+              "RelativeDocumentMoniker": "src\\BookMS.Application\\Book\\Queries\\GetBookById\\GetBookByIdQueryHandler.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\Book\\Queries\\GetBookById\\GetBookByIdQueryHandler.cs",
+              "RelativeToolTip": "src\\BookMS.Application\\Book\\Queries\\GetBookById\\GetBookByIdQueryHandler.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwB4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T18:42:11.858Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
+              "Title": "GetBookByIdQuery.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\Book\\Queries\\GetBookById\\GetBookByIdQuery.cs",
+              "RelativeDocumentMoniker": "src\\BookMS.Application\\Book\\Queries\\GetBookById\\GetBookByIdQuery.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\Book\\Queries\\GetBookById\\GetBookByIdQuery.cs",
+              "RelativeToolTip": "src\\BookMS.Application\\Book\\Queries\\GetBookById\\GetBookByIdQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T18:42:00.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IAppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\Abstractions\\IAppDbContext.cs",
+              "RelativeDocumentMoniker": "src\\BookMS.Application\\Abstractions\\IAppDbContext.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\Abstractions\\IAppDbContext.cs",
+              "RelativeToolTip": "src\\BookMS.Application\\Abstractions\\IAppDbContext.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAQwBMAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T08:24:38.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CreateBookCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\Book\\Commands\\CreateBook\\CreateBookCommandValidator.cs",
+              "RelativeDocumentMoniker": "src\\BookMS.Application\\Book\\Commands\\CreateBook\\CreateBookCommandValidator.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\Book\\Commands\\CreateBook\\CreateBookCommandValidator.cs",
+              "RelativeToolTip": "src\\BookMS.Application\\Book\\Commands\\CreateBook\\CreateBookCommandValidator.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAADwvxoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T17:55:12.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\Mapping\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "src\\BookMS.Application\\Mapping\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\Mapping\\MappingProfile.cs",
+              "RelativeToolTip": "src\\BookMS.Application\\Mapping\\MappingProfile.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAwwBEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T17:49:04.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GlobalEntityAliases.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\GlobalEntityAliases.cs",
+              "RelativeDocumentMoniker": "src\\BookMS.Application\\GlobalEntityAliases.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\GlobalEntityAliases.cs",
+              "RelativeToolTip": "src\\BookMS.Application\\GlobalEntityAliases.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T18:39:23.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BookDto.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\Book\\Dtos\\BookDto.cs",
+              "RelativeDocumentMoniker": "src\\BookMS.Application\\Book\\Dtos\\BookDto.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\Book\\Dtos\\BookDto.cs",
+              "RelativeToolTip": "src\\BookMS.Application\\Book\\Dtos\\BookDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T18:25:58.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CreateBookCommand.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\Book\\Commands\\CreateBook\\CreateBookCommand.cs",
+              "RelativeDocumentMoniker": "src\\BookMS.Application\\Book\\Commands\\CreateBook\\CreateBookCommand.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\Book\\Commands\\CreateBook\\CreateBookCommand.cs",
+              "RelativeToolTip": "src\\BookMS.Application\\Book\\Commands\\CreateBook\\CreateBookCommand.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T17:51:51.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CreateBookCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\Book\\Commands\\CreateBook\\CreateBookCommandHandler.cs",
+              "RelativeDocumentMoniker": "src\\BookMS.Application\\Book\\Commands\\CreateBook\\CreateBookCommandHandler.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\Book\\Commands\\CreateBook\\CreateBookCommandHandler.cs",
+              "RelativeToolTip": "src\\BookMS.Application\\Book\\Commands\\CreateBook\\CreateBookCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T17:55:02.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.WebApi\\Dockerfile",
+              "RelativeDocumentMoniker": "src\\BookMS.WebApi\\Dockerfile",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.WebApi\\Dockerfile",
+              "RelativeToolTip": "src\\BookMS.WebApi\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-09-11T06:13:20.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": ".env",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\.env",
+              "RelativeDocumentMoniker": ".env",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\.env",
+              "RelativeToolTip": ".env",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-09-11T06:11:24.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": ".dockerignore",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\.dockerignore",
+              "RelativeDocumentMoniker": ".dockerignore",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\.dockerignore",
+              "RelativeToolTip": ".dockerignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-09-11T06:14:19.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-09-11T06:10:40.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "20250911055003_init.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Infrastructure\\Migrations\\20250911055003_init.cs",
+              "RelativeDocumentMoniker": "src\\BookMS.Infrastructure\\Migrations\\20250911055003_init.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Infrastructure\\Migrations\\20250911055003_init.cs",
+              "RelativeToolTip": "src\\BookMS.Infrastructure\\Migrations\\20250911055003_init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T05:50:04.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "PingController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.WebApi\\Controllers\\PingController.cs",
+              "RelativeDocumentMoniker": "src\\BookMS.WebApi\\Controllers\\PingController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.WebApi\\Controllers\\PingController.cs",
+              "RelativeToolTip": "src\\BookMS.WebApi\\Controllers\\PingController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T05:38:28.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.WebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\BookMS.WebApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.WebApi\\appsettings.json",
+              "RelativeToolTip": "src\\BookMS.WebApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-11T04:46:14.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Authors.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Domain\\Entities\\Authors.cs",
+              "RelativeDocumentMoniker": "src\\BookMS.Domain\\Entities\\Authors.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Domain\\Entities\\Authors.cs",
+              "RelativeToolTip": "src\\BookMS.Domain\\Entities\\Authors.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T18:10:00.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
               "Title": "BookCategories.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Domain\\Entities\\BookCategories.cs",
               "RelativeDocumentMoniker": "src\\BookMS.Domain\\Entities\\BookCategories.cs",
@@ -302,25 +553,11 @@
               "RelativeToolTip": "src\\BookMS.Domain\\Entities\\BookCategories.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-10T18:13:26.585Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-10T18:13:26.585Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Books.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Domain\\Entities\\Books.cs",
-              "RelativeDocumentMoniker": "src\\BookMS.Domain\\Entities\\Books.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Domain\\Entities\\Books.cs",
-              "RelativeToolTip": "src\\BookMS.Domain\\Entities\\Books.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-10T18:09:40.969Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 29,
               "Title": "Roles.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Domain\\Entities\\Roles.cs",
               "RelativeDocumentMoniker": "src\\BookMS.Domain\\Entities\\Roles.cs",
@@ -328,12 +565,11 @@
               "RelativeToolTip": "src\\BookMS.Domain\\Entities\\Roles.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-10T18:08:47.709Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-10T18:08:47.709Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 28,
               "Title": "Users.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Domain\\Entities\\Users.cs",
               "RelativeDocumentMoniker": "src\\BookMS.Domain\\Entities\\Users.cs",
@@ -341,12 +577,11 @@
               "RelativeToolTip": "src\\BookMS.Domain\\Entities\\Users.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-10T18:05:01.873Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-10T18:05:01.873Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 27,
               "Title": "AuthProvider.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Domain\\Enums\\AuthProvider.cs",
               "RelativeDocumentMoniker": "src\\BookMS.Domain\\Enums\\AuthProvider.cs",
@@ -354,12 +589,11 @@
               "RelativeToolTip": "src\\BookMS.Domain\\Enums\\AuthProvider.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-10T18:25:02.153Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-10T18:25:02.153Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 32,
               "Title": "Categories.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Domain\\Entities\\Categories.cs",
               "RelativeDocumentMoniker": "src\\BookMS.Domain\\Entities\\Categories.cs",
@@ -367,12 +601,11 @@
               "RelativeToolTip": "src\\BookMS.Domain\\Entities\\Categories.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-10T18:10:20.057Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-10T18:10:20.057Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 33,
               "Title": "ServiceCollectionExtensions.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.WebApi\\Configuration\\ServiceCollectionExtensions.cs",
               "RelativeDocumentMoniker": "src\\BookMS.WebApi\\Configuration\\ServiceCollectionExtensions.cs",
@@ -380,12 +613,11 @@
               "RelativeToolTip": "src\\BookMS.WebApi\\Configuration\\ServiceCollectionExtensions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-10T19:00:48.176Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-10T19:00:48.176Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 34,
               "Title": "ExceptionHandlingMiddleware.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.WebApi\\Middleware\\ExceptionHandlingMiddleware.cs",
               "RelativeDocumentMoniker": "src\\BookMS.WebApi\\Middleware\\ExceptionHandlingMiddleware.cs",
@@ -393,12 +625,11 @@
               "RelativeToolTip": "src\\BookMS.WebApi\\Middleware\\ExceptionHandlingMiddleware.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-10T19:00:34.28Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-10T19:00:34.28Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 35,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.WebApi\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "src\\BookMS.WebApi\\Controllers\\AuthController.cs",
@@ -406,12 +637,11 @@
               "RelativeToolTip": "src\\BookMS.WebApi\\Controllers\\AuthController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-10T18:58:00.051Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-10T18:58:00.051Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 36,
               "Title": "GoogleTokenValidator.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Infrastructure\\Security\\GoogleTokenValidator.cs",
               "RelativeDocumentMoniker": "src\\BookMS.Infrastructure\\Security\\GoogleTokenValidator.cs",
@@ -419,12 +649,11 @@
               "RelativeToolTip": "src\\BookMS.Infrastructure\\Security\\GoogleTokenValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-10T18:57:29.253Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-10T18:57:29.253Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 37,
               "Title": "JwtTokenService.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Infrastructure\\Security\\JwtTokenService.cs",
               "RelativeDocumentMoniker": "src\\BookMS.Infrastructure\\Security\\JwtTokenService.cs",
@@ -432,12 +661,11 @@
               "RelativeToolTip": "src\\BookMS.Infrastructure\\Security\\JwtTokenService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-10T18:57:19.958Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-10T18:57:19.958Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 38,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "src\\BookMS.Application\\Services\\AuthService.cs",
@@ -445,25 +673,11 @@
               "RelativeToolTip": "src\\BookMS.Application\\Services\\AuthService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-10T18:54:49.031Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-10T18:54:49.031Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "AuthDtos.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\DTOs\\AuthDtos.cs",
-              "RelativeDocumentMoniker": "src\\BookMS.Application\\DTOs\\AuthDtos.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\DTOs\\AuthDtos.cs",
-              "RelativeToolTip": "src\\BookMS.Application\\DTOs\\AuthDtos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-10T18:54:19.639Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 39,
               "Title": "AppException.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\Common\\Exceptions\\AppException.cs",
               "RelativeDocumentMoniker": "src\\BookMS.Application\\Common\\Exceptions\\AppException.cs",
@@ -471,12 +685,11 @@
               "RelativeToolTip": "src\\BookMS.Application\\Common\\Exceptions\\AppException.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-10T18:53:49.871Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-10T18:53:49.871Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 40,
               "Title": "IExternalTokenValidator.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\Abstractions\\Security\\IExternalTokenValidator.cs",
               "RelativeDocumentMoniker": "src\\BookMS.Application\\Abstractions\\Security\\IExternalTokenValidator.cs",
@@ -484,12 +697,11 @@
               "RelativeToolTip": "src\\BookMS.Application\\Abstractions\\Security\\IExternalTokenValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-10T18:52:38.361Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-10T18:52:38.361Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 41,
               "Title": "IJwtTokenService.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\Abstractions\\Security\\IJwtTokenService.cs",
               "RelativeDocumentMoniker": "src\\BookMS.Application\\Abstractions\\Security\\IJwtTokenService.cs",
@@ -497,12 +709,11 @@
               "RelativeToolTip": "src\\BookMS.Application\\Abstractions\\Security\\IJwtTokenService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-10T18:52:26.464Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-10T18:52:26.464Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 42,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\Abstractions\\Persistence\\IUserRepository.cs",
               "RelativeDocumentMoniker": "src\\BookMS.Application\\Abstractions\\Persistence\\IUserRepository.cs",
@@ -510,25 +721,11 @@
               "RelativeToolTip": "src\\BookMS.Application\\Abstractions\\Persistence\\IUserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-10T18:51:50.938Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-10T18:51:50.938Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "BookMS.Application",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\BookMS.Application.csproj",
-              "RelativeDocumentMoniker": "src\\BookMS.Application\\BookMS.Application.csproj",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\BookMS.Application.csproj",
-              "RelativeToolTip": "src\\BookMS.Application\\BookMS.Application.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-09-10T18:50:40.069Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 43,
               "Title": "BookMS.Domain.csproj",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Domain\\BookMS.Domain.csproj",
               "RelativeDocumentMoniker": "src\\BookMS.Domain\\BookMS.Domain.csproj",
@@ -536,8 +733,7 @@
               "RelativeToolTip": "src\\BookMS.Domain\\BookMS.Domain.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-09-10T18:24:38.711Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-10T18:24:38.711Z"
             }
           ]
         }

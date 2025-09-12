@@ -10,7 +10,7 @@ namespace BookMS.Domain.Entities
     public class Books : BaseEntity
     {
         public string Title { get; set; } = default!;
-        public string AuthorName { get; set; } = default!;
+        public string? AuthorName { get; set; }
         public string? Isbn { get; set; }
         public int? PublishedYear { get; set; }
         public string? Category { get; set; }
