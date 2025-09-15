@@ -1,6 +1,7 @@
 ﻿using BookMS.Application.Book.Queries.GetBookById;
 using BookMS.Application.Book.Queries.GetBooksPaged;
 using BookMS.Application.Books.Commands.CreateBook;
+using BookMS.Application.Books.Queries.GetBooksCount;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -41,6 +42,14 @@ namespace BookMS.WebApi.Controllers
         {
             var dto = await _mediator.Send(cmd);
             return CreatedAtAction(nameof(GetById), new { id = dto.Id }, dto);
+        }
+
+        [HttpGet("count")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        public async Task<ActionResult<int>> GetCount()
+        {
+            var count = await _mediator.Send(new GetBooksCountQuery());
+            return Ok(new { totalCount = count });
         }
     }
 }
