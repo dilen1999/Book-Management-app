@@ -5,14 +5,15 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Separator } from "@/components/ui/separator";
 import { useNavigate } from "react-router-dom";
 import heroImage from "@/assets/hero-books.jpg";
-import { AuthApi } from "@/lib/authApi"; // <-- our API wrapper
+import { useGoogleLogin } from "@react-oauth/google";
+import { AuthApi } from "@/lib/authApi";
 
 const Login = () => {
   const [isLogin, setIsLogin] = useState(true);
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [name, setName] = useState("");
-  const [role] = useState("User"); // default role
+  const [role] = useState("User"); 
   const [error, setError] = useState<string | null>(null);
   const navigate = useNavigate();
 
@@ -23,31 +24,46 @@ const Login = () => {
     try {
       let res;
       if (isLogin) {
-        // call backend login
         res = await AuthApi.login(email, password);
       } else {
-        // call backend register
         res = await AuthApi.register(email, name, password, role);
       }
 
-      // save tokens (example: refreshToken persisted, accessToken in memory)
       localStorage.setItem("refreshToken", res.refreshToken);
       sessionStorage.setItem("accessToken", res.accessToken);
 
-      // redirect
       navigate("/dashboard");
     } catch (err: any) {
       setError(err.message || "Authentication failed");
     }
   };
 
-  const handleGoogleLogin = () => {
-    // wire to /api/Auth/google later
-    navigate("/dashboard");
-  };
+  const handleGoogleLogin = useGoogleLogin({
+    flow: "implicit",
+    onSuccess: async (tokenResponse) => {
+      try {
+        // Exchange access_token for id_token
+        const tokenInfo = await fetch(
+          `https://www.googleapis.com/oauth2/v3/tokeninfo?access_token=${tokenResponse.access_token}`
+        ).then((res) => res.json());
+
+        const idToken = tokenInfo.id_token;
+        if (!idToken) throw new Error("Google ID token not found");
+
+        const res = await AuthApi.google(idToken);
+
+        localStorage.setItem("refreshToken", res.refreshToken);
+        sessionStorage.setItem("accessToken", res.accessToken);
+
+        navigate("/dashboard");
+      } catch (err: any) {
+        setError(err.message || "Google sign-in failed");
+      }
+    },
+    onError: () => setError("Google sign-in failed"),
+  });
 
   const handleMicrosoftLogin = () => {
-    // wire to /api/Auth/microsoft later
     navigate("/dashboard");
   };
 
@@ -88,7 +104,7 @@ const Login = () => {
               {/* OAuth Buttons */}
               <div className="space-y-3">
                 <Button
-                  onClick={handleGoogleLogin}
+                  onClick={() => handleGoogleLogin()}
                   variant="outline"
                   className="w-full h-12 border-border hover:border-primary/30 hover:bg-gradient-subtle transition-smooth"
                 >

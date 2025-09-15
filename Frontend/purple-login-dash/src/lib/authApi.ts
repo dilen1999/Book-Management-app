@@ -38,4 +38,10 @@ export const AuthApi = {
       method: "POST",
       body: JSON.stringify({ email, password }),
     }),
+
+  google: (idToken: string) =>
+    apiFetch<AuthResponse>("/Auth/google", {
+      method: "POST",
+      body: JSON.stringify({ idToken }),
+    }),
 };
