@@ -11,10 +11,20 @@ namespace BookMS.Application.Auth.Commands.Register
     {
         public RegisterUserCommandValidator()
         {
-            RuleFor(x => x.Request.Email).NotEmpty().EmailAddress().MaximumLength(200);
-            RuleFor(x => x.Request.Name).NotEmpty().MaximumLength(150);
-            RuleFor(x => x.Request.Password).NotEmpty().MinimumLength(6);
-            RuleFor(x => x.Request.RoleId).NotEmpty();
+            RuleFor(x => x.Request.Email)
+                .NotEmpty().EmailAddress();
+
+            RuleFor(x => x.Request.Name)
+                .NotEmpty();
+
+            RuleFor(x => x.Request.Password)
+                .NotEmpty()
+                .MinimumLength(6);
+
+            RuleFor(x => x.Request.Role)
+                .NotEmpty()
+                .Must(role => role == "User" || role == "Admin" || role == "SuperAdmin")
+                .WithMessage("Role must be User, Admin, or SuperAdmin.");
         }
     }
 }

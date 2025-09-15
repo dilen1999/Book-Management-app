@@ -6,5 +6,13 @@ using System.Threading.Tasks;
 
 namespace BookMS.Application.Auth.Dtos
 {
-    public record RegisterRequest(string Email, string Name, string Password, Guid RoleId);
+    public class RegisterRequest
+    {
+        public string Email { get; set; } = default!;
+        public string Name { get; set; } = default!;
+        public string Password { get; set; } = default!;
+
+        // Instead of roleId (GUID), send plain role name
+        public string Role { get; set; } = "User";
+    }
 }

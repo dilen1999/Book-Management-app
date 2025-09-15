@@ -1,4 +1,5 @@
-﻿using BookMS.Application.Auth.Commands.Login;
+﻿using BookMS.Application.Auth.Commands.GoogleSignIn;
+using BookMS.Application.Auth.Commands.Login;
 using BookMS.Application.Auth.Commands.Refresh;
 using BookMS.Application.Auth.Commands.Register;
 using BookMS.Application.Auth.Commands.Revoke;
@@ -21,8 +22,8 @@ namespace BookMS.WebApi.Controllers
         [ProducesResponseType(StatusCodes.Status409Conflict)]
         public async Task<ActionResult<AuthResponseDto>> Register([FromBody] RegisterRequest req)
         {
-            var resp = await _mediator.Send(new RegisterUserCommand(req));
-            return CreatedAtAction(nameof(Register), new { id = resp.UserId }, resp);
+            var result = await _mediator.Send(new RegisterUserCommand(req));
+            return Ok(result);
         }
 
         [HttpPost("login")]
@@ -55,6 +56,19 @@ namespace BookMS.WebApi.Controllers
 
             await _mediator.Send(new RevokeRefreshTokenCommand(req.RefreshToken));
             return NoContent();
+        }
+
+        [HttpPost("google")]
+        [ProducesResponseType(typeof(AuthResponseDto), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status409Conflict)]
+        public async Task<ActionResult<AuthResponseDto>> Google([FromBody] GoogleSignInRequest req)
+        {
+            if (req is null || string.IsNullOrWhiteSpace(req.IdToken))
+                return BadRequest(new { error = "idToken is required" });
+
+            var resp = await _mediator.Send(new GoogleSignInCommand(req));
+            return Ok(resp);
         }
     }
 }

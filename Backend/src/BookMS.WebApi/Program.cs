@@ -1,5 +1,6 @@
 using BookMS.Application.Abstractions;
 using BookMS.Application.Common.Behaviors;
+using BookMS.Application.Common.Options;
 using BookMS.Application.Services;
 using BookMS.Infrastructure.Persistence;
 using BookMS.Infrastructure.Security;
@@ -15,7 +16,17 @@ using System.Reflection;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
+var allowedOrigin = builder.Configuration["Cors:Frontend"] ?? "http://localhost:5173";
 
+builder.Services.AddCors(opt =>
+{
+    opt.AddPolicy("frontend", p =>
+        p.WithOrigins(allowedOrigin)
+         .AllowAnyHeader()
+         .AllowAnyMethod()
+         .AllowCredentials()
+    );
+});
 // ------------------ Services ------------------
 
 // EF Core + SQL Server
@@ -39,6 +50,7 @@ builder.Services.AddTransient(typeof(IPipelineBehavior<,>), typeof(TransactionBe
 builder.Services.Configure<JwtOptions>(builder.Configuration.GetSection("Jwt"));
 builder.Services.AddScoped<ITokenService, JwtTokenService>();
 builder.Services.AddScoped<IPasswordHasher<BookMS.Domain.Entities.Users>, PasswordHasher<BookMS.Domain.Entities.Users>>();
+builder.Services.Configure<GoogleAuthOptions>(builder.Configuration.GetSection("Google"));
 
 var jwt = builder.Configuration.GetSection("Jwt").Get<JwtOptions>()!;
 builder.Services
@@ -126,6 +138,7 @@ if (app.Environment.IsDevelopment())
 
 // Optional HTTPS redirection (keep if you need it)
 app.UseHttpsRedirection();
+app.UseCors("frontend");
 
 // If you add auth later, these would go here:
 app.UseAuthentication();
