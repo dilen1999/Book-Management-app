@@ -33,31 +33,35 @@ const Login = () => {
       sessionStorage.setItem("accessToken", res.accessToken);
 
       navigate("/dashboard");
-    } catch (err: any) {
-      setError(err.message || "Authentication failed");
+    } catch (err: unknown) {
+      const errorMessage = err instanceof Error ? err.message : "Authentication failed";
+      setError(errorMessage);
     }
   };
 
   const handleGoogleLogin = useGoogleLogin({
-    flow: "implicit",
     onSuccess: async (tokenResponse) => {
       try {
-        // Exchange access_token for id_token
-        const tokenInfo = await fetch(
-          `https://www.googleapis.com/oauth2/v3/tokeninfo?access_token=${tokenResponse.access_token}`
-        ).then((res) => res.json());
-
-        const idToken = tokenInfo.id_token;
-        if (!idToken) throw new Error("Google ID token not found");
-
-        const res = await AuthApi.google(idToken);
+        // Get user info using the access token
+        const userResponse = await fetch(
+          `https://www.googleapis.com/oauth2/v2/userinfo?access_token=${tokenResponse.access_token}`
+        );
+        
+        if (!userResponse.ok) {
+          throw new Error('Failed to get user info from Google');
+        }
+        
+        const userInfo = await userResponse.json();
+        
+        const res = await AuthApi.google(tokenResponse.access_token);
 
         localStorage.setItem("refreshToken", res.refreshToken);
         sessionStorage.setItem("accessToken", res.accessToken);
 
         navigate("/dashboard");
-      } catch (err: any) {
-        setError(err.message || "Google sign-in failed");
+      } catch (err: unknown) {
+        const errorMessage = err instanceof Error ? err.message : "Google sign-in failed";
+        setError(errorMessage);
       }
     },
     onError: () => setError("Google sign-in failed"),
