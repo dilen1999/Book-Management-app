@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C4B9BD1A-D18B-4D38-A489-DEA7DDCCBBF6}|src\\BookMS.WebApi\\BookMS.WebApi.csproj|c:\\users\\dell\\desktop\\full-stack assignment\\bookmanagementapp\\backend\\src\\bookms.webapi\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4B9BD1A-D18B-4D38-A489-DEA7DDCCBBF6}|src\\BookMS.WebApi\\BookMS.WebApi.csproj|solutionrelative:src\\bookms.webapi\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C4B9BD1A-D18B-4D38-A489-DEA7DDCCBBF6}|src\\BookMS.WebApi\\BookMS.WebApi.csproj|c:\\users\\dell\\desktop\\full-stack assignment\\bookmanagementapp\\backend\\src\\bookms.webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C4B9BD1A-D18B-4D38-A489-DEA7DDCCBBF6}|src\\BookMS.WebApi\\BookMS.WebApi.csproj|solutionrelative:src\\bookms.webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D01C65DC-B28F-470A-9FD4-C34F99C071A5}|src\\BookMS.Application\\BookMS.Application.csproj|c:\\users\\dell\\desktop\\full-stack assignment\\bookmanagementapp\\backend\\src\\bookms.application\\auth\\commands\\register\\registerusercommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D01C65DC-B28F-470A-9FD4-C34F99C071A5}|src\\BookMS.Application\\BookMS.Application.csproj|solutionrelative:src\\bookms.application\\auth\\commands\\register\\registerusercommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D01C65DC-B28F-470A-9FD4-C34F99C071A5}|src\\BookMS.Application\\BookMS.Application.csproj|c:\\users\\dell\\desktop\\full-stack assignment\\bookmanagementapp\\backend\\src\\bookms.application\\auth\\dtos\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D01C65DC-B28F-470A-9FD4-C34F99C071A5}|src\\BookMS.Application\\BookMS.Application.csproj|c:\\users\\dell\\desktop\\full-stack assignment\\bookmanagementapp\\backend\\src\\bookms.application\\auth\\commands\\register\\registerusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D01C65DC-B28F-470A-9FD4-C34F99C071A5}|src\\BookMS.Application\\BookMS.Application.csproj|solutionrelative:src\\bookms.application\\auth\\commands\\register\\registerusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D01C65DC-B28F-470A-9FD4-C34F99C071A5}|src\\BookMS.Application\\BookMS.Application.csproj|c:\\users\\dell\\desktop\\full-stack assignment\\bookmanagementapp\\backend\\src\\bookms.application\\auth\\commands\\register\\registerusercommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D01C65DC-B28F-470A-9FD4-C34F99C071A5}|src\\BookMS.Application\\BookMS.Application.csproj|solutionrelative:src\\bookms.application\\auth\\commands\\register\\registerusercommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -113,10 +117,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D01C65DC-B28F-470A-9FD4-C34F99C071A5}|src\\BookMS.Application\\BookMS.Application.csproj|c:\\users\\dell\\desktop\\full-stack assignment\\bookmanagementapp\\backend\\src\\bookms.application\\common\\behaviors\\transactionbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D01C65DC-B28F-470A-9FD4-C34F99C071A5}|src\\BookMS.Application\\BookMS.Application.csproj|solutionrelative:src\\bookms.application\\common\\behaviors\\transactionbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C4B9BD1A-D18B-4D38-A489-DEA7DDCCBBF6}|src\\BookMS.WebApi\\BookMS.WebApi.csproj|c:\\users\\dell\\desktop\\full-stack assignment\\bookmanagementapp\\backend\\src\\bookms.webapi\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4B9BD1A-D18B-4D38-A489-DEA7DDCCBBF6}|src\\BookMS.WebApi\\BookMS.WebApi.csproj|solutionrelative:src\\bookms.webapi\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D01C65DC-B28F-470A-9FD4-C34F99C071A5}|src\\BookMS.Application\\BookMS.Application.csproj|c:\\users\\dell\\desktop\\full-stack assignment\\bookmanagementapp\\backend\\src\\bookms.application\\auth\\commands\\login\\logincommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -302,20 +302,46 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AuthResponseDto.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\Auth\\Dtos\\AuthResponseDto.cs",
-              "RelativeDocumentMoniker": "src\\BookMS.Application\\Auth\\Dtos\\AuthResponseDto.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\Auth\\Dtos\\AuthResponseDto.cs",
-              "RelativeToolTip": "src\\BookMS.Application\\Auth\\Dtos\\AuthResponseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.WebApi\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "src\\BookMS.WebApi\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.WebApi\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "src\\BookMS.WebApi\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAiwEEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-12T16:36:01.225Z",
+              "WhenOpened": "2025-09-10T18:58:00.051Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "RegisterUserCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\Auth\\Commands\\Register\\RegisterUserCommandValidator.cs",
+              "RelativeDocumentMoniker": "src\\BookMS.Application\\Auth\\Commands\\Register\\RegisterUserCommandValidator.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\Auth\\Commands\\Register\\RegisterUserCommandValidator.cs",
+              "RelativeToolTip": "src\\BookMS.Application\\Auth\\Commands\\Register\\RegisterUserCommandValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T16:38:04.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.WebApi\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "src\\BookMS.WebApi\\Controllers\\BooksController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.WebApi\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "src\\BookMS.WebApi\\Controllers\\BooksController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T13:56:29.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "RegisterRequest.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\Auth\\Dtos\\RegisterRequest.cs",
               "RelativeDocumentMoniker": "src\\BookMS.Application\\Auth\\Dtos\\RegisterRequest.cs",
@@ -328,20 +354,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.WebApi\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "src\\BookMS.WebApi\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.WebApi\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "src\\BookMS.WebApi\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAADwvxsAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "AuthResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\Auth\\Dtos\\AuthResponseDto.cs",
+              "RelativeDocumentMoniker": "src\\BookMS.Application\\Auth\\Dtos\\AuthResponseDto.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\Auth\\Dtos\\AuthResponseDto.cs",
+              "RelativeToolTip": "src\\BookMS.Application\\Auth\\Dtos\\AuthResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-10T18:58:00.051Z",
+              "WhenOpened": "2025-09-12T16:36:01.225Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "RegisterUserCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\Auth\\Commands\\Register\\RegisterUserCommandHandler.cs",
               "RelativeDocumentMoniker": "src\\BookMS.Application\\Auth\\Commands\\Register\\RegisterUserCommandHandler.cs",
@@ -354,7 +380,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "RegisterUserCommand.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\Auth\\Commands\\Register\\RegisterUserCommand.cs",
               "RelativeDocumentMoniker": "src\\BookMS.Application\\Auth\\Commands\\Register\\RegisterUserCommand.cs",
@@ -367,20 +393,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "RegisterUserCommandValidator.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\Auth\\Commands\\Register\\RegisterUserCommandValidator.cs",
-              "RelativeDocumentMoniker": "src\\BookMS.Application\\Auth\\Commands\\Register\\RegisterUserCommandValidator.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\Auth\\Commands\\Register\\RegisterUserCommandValidator.cs",
-              "RelativeToolTip": "src\\BookMS.Application\\Auth\\Commands\\Register\\RegisterUserCommandValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-12T16:38:04.709Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "docker-compose.yml",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\docker-compose.yml",
               "RelativeDocumentMoniker": "docker-compose.yml",
@@ -393,7 +406,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.WebApi\\Program.cs",
               "RelativeDocumentMoniker": "src\\BookMS.WebApi\\Program.cs",
@@ -405,7 +418,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "JwtOptions.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Infrastructure\\Security\\JwtOptions.cs",
               "RelativeDocumentMoniker": "src\\BookMS.Infrastructure\\Security\\JwtOptions.cs",
@@ -417,7 +430,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.WebApi\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "src\\BookMS.WebApi\\Properties\\launchSettings.json",
@@ -429,7 +442,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.WebApi\\appsettings.json",
               "RelativeDocumentMoniker": "src\\BookMS.WebApi\\appsettings.json",
@@ -441,7 +454,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "GoogleSignInCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\Auth\\Commands\\GoogleSignIn\\GoogleSignInCommandHandler.cs",
               "RelativeDocumentMoniker": "src\\BookMS.Application\\Auth\\Commands\\GoogleSignIn\\GoogleSignInCommandHandler.cs",
@@ -453,7 +466,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "GoogleAuthOptions.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\Common\\Options\\GoogleAuthOptions.cs",
               "RelativeDocumentMoniker": "src\\BookMS.Application\\Common\\Options\\GoogleAuthOptions.cs",
@@ -465,7 +478,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "GoogleSignInCommand.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\Auth\\Commands\\GoogleSignIn\\GoogleSignInCommand.cs",
               "RelativeDocumentMoniker": "src\\BookMS.Application\\Auth\\Commands\\GoogleSignIn\\GoogleSignInCommand.cs",
@@ -477,7 +490,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "GoogleSignInRequest.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\Auth\\Dtos\\GoogleSignInRequest.cs",
               "RelativeDocumentMoniker": "src\\BookMS.Application\\Auth\\Dtos\\GoogleSignInRequest.cs",
@@ -489,7 +502,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "RefreshTokenCommand.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\Auth\\Commands\\Refresh\\RefreshTokenCommand.cs",
               "RelativeDocumentMoniker": "src\\BookMS.Application\\Auth\\Commands\\Refresh\\RefreshTokenCommand.cs",
@@ -501,7 +514,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "RefreshTokenCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\Auth\\Commands\\Refresh\\RefreshTokenCommandHandler.cs",
               "RelativeDocumentMoniker": "src\\BookMS.Application\\Auth\\Commands\\Refresh\\RefreshTokenCommandHandler.cs",
@@ -525,7 +538,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "RefreshRequest.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\Auth\\Dtos\\RefreshRequest.cs",
               "RelativeDocumentMoniker": "src\\BookMS.Application\\Auth\\Dtos\\RefreshRequest.cs",
@@ -537,7 +550,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "RevokeRefreshTokenHandler.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\Auth\\Commands\\Revoke\\RevokeRefreshTokenHandler.cs",
               "RelativeDocumentMoniker": "src\\BookMS.Application\\Auth\\Commands\\Revoke\\RevokeRefreshTokenHandler.cs",
@@ -549,7 +562,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "RevokeRefreshTokenCommand.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\Auth\\Commands\\Revoke\\RevokeRefreshTokenCommand.cs",
               "RelativeDocumentMoniker": "src\\BookMS.Application\\Auth\\Commands\\Revoke\\RevokeRefreshTokenCommand.cs",
@@ -561,7 +574,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "IAppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\Abstractions\\IAppDbContext.cs",
               "RelativeDocumentMoniker": "src\\BookMS.Application\\Abstractions\\IAppDbContext.cs",
@@ -573,7 +586,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "LoginCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\Auth\\Commands\\Login\\LoginCommandHandler.cs",
               "RelativeDocumentMoniker": "src\\BookMS.Application\\Auth\\Commands\\Login\\LoginCommandHandler.cs",
@@ -585,7 +598,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Infrastructure\\Persistence\\AppDbContext.cs",
               "RelativeDocumentMoniker": "src\\BookMS.Infrastructure\\Persistence\\AppDbContext.cs",
@@ -597,7 +610,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "GlobalEntityAliases.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\GlobalEntityAliases.cs",
               "RelativeDocumentMoniker": "src\\BookMS.Application\\GlobalEntityAliases.cs",
@@ -609,7 +622,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "JwtTokenService.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Infrastructure\\Security\\JwtTokenService.cs",
               "RelativeDocumentMoniker": "src\\BookMS.Infrastructure\\Security\\JwtTokenService.cs",
@@ -621,7 +634,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "ITokenService.cs.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\Services\\ITokenService.cs.cs",
               "RelativeDocumentMoniker": "src\\BookMS.Application\\Services\\ITokenService.cs.cs",
@@ -645,7 +658,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "RefreshToken.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Domain\\Entities\\RefreshToken.cs",
               "RelativeDocumentMoniker": "src\\BookMS.Domain\\Entities\\RefreshToken.cs",
@@ -657,7 +670,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "TransactionBehavior.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\Common\\Behaviors\\TransactionBehavior.cs",
               "RelativeDocumentMoniker": "src\\BookMS.Application\\Common\\Behaviors\\TransactionBehavior.cs",
@@ -666,18 +679,6 @@
               "ViewState": "AgIAAAsAAAAAAAAAAAAxwBkAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-12T15:59:47.715Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "BooksController.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.WebApi\\Controllers\\BooksController.cs",
-              "RelativeDocumentMoniker": "src\\BookMS.WebApi\\Controllers\\BooksController.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.WebApi\\Controllers\\BooksController.cs",
-              "RelativeToolTip": "src\\BookMS.WebApi\\Controllers\\BooksController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwB0AAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-12T13:56:29.727Z"
             },
             {
               "$type": "Document",

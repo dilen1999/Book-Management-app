@@ -4,6 +4,8 @@ import { Input } from "@/components/ui/input";
 import { Badge } from "@/components/ui/badge";
 import { BookOpen, Search, Plus, TrendingUp, Users, Star, Filter } from "lucide-react";
 import { useState } from "react";
+import { BooksApi, Book } from "@/lib/api";
+import { useQuery } from "@tanstack/react-query";
 
 // Mock data
 const categories = [
@@ -55,6 +57,10 @@ const recentBooks = [
 
 const Dashboard = () => {
   const [searchTerm, setSearchTerm] = useState("");
+  const { data: books, isLoading, isError } = useQuery<Book[]>({
+    queryKey: ["books"],
+    queryFn: () => BooksApi.getAll(1, 20),   // ✅ use API wrapper
+  });
 
   return (
     <div className="min-h-screen bg-gradient-subtle">
@@ -171,7 +177,7 @@ const Dashboard = () => {
                 <CardTitle className="text-primary">Recent Books</CardTitle>
                 <CardDescription>Your latest reading activity</CardDescription>
               </CardHeader>
-              <CardContent>
+              {/* <CardContent>
                 <div className="space-y-4">
                   {recentBooks.map((book) => (
                     <div key={book.id} className="flex items-center space-x-4 p-4 rounded-lg hover:bg-accent transition-smooth cursor-pointer">
@@ -201,7 +207,50 @@ const Dashboard = () => {
                     </div>
                   ))}
                 </div>
+              </CardContent> */}
+              <CardContent>
+                <div className="space-y-4">
+                  {isLoading && <p className="text-muted-foreground">Loading books...</p>}
+                  {isError && <p className="text-red-500">Failed to load books.</p>}
+
+                  {books?.map((book) => (
+                    <div
+                      key={book.id}
+                      className="flex items-center space-x-4 p-4 rounded-lg hover:bg-accent transition-smooth cursor-pointer"
+                    >
+                      {/* Emoji/cover placeholder */}
+                      <div className="text-3xl">📘</div>
+
+                      {/* Book info */}
+                      <div className="flex-1 min-w-0">
+                        <h3 className="font-semibold text-foreground truncate">
+                          {book.title}
+                        </h3>
+                        <p className="text-sm text-muted-foreground">
+                          ISBN: {book.isbn}
+                        </p>
+                        <div className="flex items-center space-x-2 mt-1">
+                          <Badge variant="outline" className="text-xs">
+                            Year {book.publishedYear}
+                          </Badge>
+                        </div>
+                      </div>
+
+                      {/* Progress placeholder */}
+                      <div className="text-right">
+                        <div className="text-sm font-medium text-primary">—</div>
+                        <div className="w-16 bg-muted rounded-full h-2 mt-1">
+                          <div
+                            className="bg-gradient-primary h-2 rounded-full transition-smooth"
+                            style={{ width: `0%` }}
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
               </CardContent>
+
             </Card>
           </div>
         </div>

@@ -11,6 +11,14 @@
       "RelativeMoniker": "D:0:0:{C4B9BD1A-D18B-4D38-A489-DEA7DDCCBBF6}|src\\BookMS.WebApi\\BookMS.WebApi.csproj|solutionrelative:src\\bookms.webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C4B9BD1A-D18B-4D38-A489-DEA7DDCCBBF6}|src\\BookMS.WebApi\\BookMS.WebApi.csproj|c:\\users\\dell\\desktop\\full-stack assignment\\bookmanagementapp\\backend\\src\\bookms.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C4B9BD1A-D18B-4D38-A489-DEA7DDCCBBF6}|src\\BookMS.WebApi\\BookMS.WebApi.csproj|solutionrelative:src\\bookms.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4B9BD1A-D18B-4D38-A489-DEA7DDCCBBF6}|src\\BookMS.WebApi\\BookMS.WebApi.csproj|c:\\users\\dell\\desktop\\full-stack assignment\\bookmanagementapp\\backend\\src\\bookms.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4B9BD1A-D18B-4D38-A489-DEA7DDCCBBF6}|src\\BookMS.WebApi\\BookMS.WebApi.csproj|solutionrelative:src\\bookms.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D01C65DC-B28F-470A-9FD4-C34F99C071A5}|src\\BookMS.Application\\BookMS.Application.csproj|c:\\users\\dell\\desktop\\full-stack assignment\\bookmanagementapp\\backend\\src\\bookms.application\\auth\\commands\\register\\registerusercommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D01C65DC-B28F-470A-9FD4-C34F99C071A5}|src\\BookMS.Application\\BookMS.Application.csproj|solutionrelative:src\\bookms.application\\auth\\commands\\register\\registerusercommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -35,16 +43,8 @@
       "RelativeMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C4B9BD1A-D18B-4D38-A489-DEA7DDCCBBF6}|src\\BookMS.WebApi\\BookMS.WebApi.csproj|c:\\users\\dell\\desktop\\full-stack assignment\\bookmanagementapp\\backend\\src\\bookms.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4B9BD1A-D18B-4D38-A489-DEA7DDCCBBF6}|src\\BookMS.WebApi\\BookMS.WebApi.csproj|solutionrelative:src\\bookms.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A24BBA00-CDDD-4A8F-8403-70AC62536AC8}|src\\BookMS.Infrastructure\\BookMS.Infrastructure.csproj|c:\\users\\dell\\desktop\\full-stack assignment\\bookmanagementapp\\backend\\src\\bookms.infrastructure\\security\\jwtoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A24BBA00-CDDD-4A8F-8403-70AC62536AC8}|src\\BookMS.Infrastructure\\BookMS.Infrastructure.csproj|solutionrelative:src\\bookms.infrastructure\\security\\jwtoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C4B9BD1A-D18B-4D38-A489-DEA7DDCCBBF6}|src\\BookMS.WebApi\\BookMS.WebApi.csproj|c:\\users\\dell\\desktop\\full-stack assignment\\bookmanagementapp\\backend\\src\\bookms.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C4B9BD1A-D18B-4D38-A489-DEA7DDCCBBF6}|src\\BookMS.WebApi\\BookMS.WebApi.csproj|solutionrelative:src\\bookms.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C4B9BD1A-D18B-4D38-A489-DEA7DDCCBBF6}|src\\BookMS.WebApi\\BookMS.WebApi.csproj|c:\\users\\dell\\desktop\\full-stack assignment\\bookmanagementapp\\backend\\src\\bookms.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -298,34 +298,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.WebApi\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "src\\BookMS.WebApi\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.WebApi\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "src\\BookMS.WebApi\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAiwEEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-10T18:58:00.051Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RegisterUserCommandValidator.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\Auth\\Commands\\Register\\RegisterUserCommandValidator.cs",
-              "RelativeDocumentMoniker": "src\\BookMS.Application\\Auth\\Commands\\Register\\RegisterUserCommandValidator.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\Auth\\Commands\\Register\\RegisterUserCommandValidator.cs",
-              "RelativeToolTip": "src\\BookMS.Application\\Auth\\Commands\\Register\\RegisterUserCommandValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-12T16:38:04.709Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -334,14 +308,14 @@
               "RelativeDocumentMoniker": "src\\BookMS.WebApi\\Controllers\\BooksController.cs",
               "ToolTip": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.WebApi\\Controllers\\BooksController.cs",
               "RelativeToolTip": "src\\BookMS.WebApi\\Controllers\\BooksController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAgwCIAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-12T13:56:29.727Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "RegisterRequest.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\Auth\\Dtos\\RegisterRequest.cs",
               "RelativeDocumentMoniker": "src\\BookMS.Application\\Auth\\Dtos\\RegisterRequest.cs",
@@ -349,12 +323,11 @@
               "RelativeToolTip": "src\\BookMS.Application\\Auth\\Dtos\\RegisterRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-12T16:36:21.151Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-12T16:36:21.151Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "AuthResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\Auth\\Dtos\\AuthResponseDto.cs",
               "RelativeDocumentMoniker": "src\\BookMS.Application\\Auth\\Dtos\\AuthResponseDto.cs",
@@ -362,12 +335,11 @@
               "RelativeToolTip": "src\\BookMS.Application\\Auth\\Dtos\\AuthResponseDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-12T16:36:01.225Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-12T16:36:01.225Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "RegisterUserCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\Auth\\Commands\\Register\\RegisterUserCommandHandler.cs",
               "RelativeDocumentMoniker": "src\\BookMS.Application\\Auth\\Commands\\Register\\RegisterUserCommandHandler.cs",
@@ -375,12 +347,62 @@
               "RelativeToolTip": "src\\BookMS.Application\\Auth\\Commands\\Register\\RegisterUserCommandHandler.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAAwB4AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-12T18:04:21.762Z",
+              "WhenOpened": "2025-09-12T18:04:21.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "src\\BookMS.WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.WebApi\\Program.cs",
+              "RelativeToolTip": "src\\BookMS.WebApi\\Program.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAADwv4oAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T05:31:42.465Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.WebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\BookMS.WebApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.WebApi\\appsettings.json",
+              "RelativeToolTip": "src\\BookMS.WebApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-11T04:46:14.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.WebApi\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "src\\BookMS.WebApi\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.WebApi\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "src\\BookMS.WebApi\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwEMAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T18:58:00.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RegisterUserCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\Auth\\Commands\\Register\\RegisterUserCommandValidator.cs",
+              "RelativeDocumentMoniker": "src\\BookMS.Application\\Auth\\Commands\\Register\\RegisterUserCommandValidator.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\Auth\\Commands\\Register\\RegisterUserCommandValidator.cs",
+              "RelativeToolTip": "src\\BookMS.Application\\Auth\\Commands\\Register\\RegisterUserCommandValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-12T16:38:04.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "RegisterUserCommand.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Application\\Auth\\Commands\\Register\\RegisterUserCommand.cs",
               "RelativeDocumentMoniker": "src\\BookMS.Application\\Auth\\Commands\\Register\\RegisterUserCommand.cs",
@@ -388,12 +410,11 @@
               "RelativeToolTip": "src\\BookMS.Application\\Auth\\Commands\\Register\\RegisterUserCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAABbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-12T16:37:34.598Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-12T16:37:34.598Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "docker-compose.yml",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\docker-compose.yml",
               "RelativeDocumentMoniker": "docker-compose.yml",
@@ -401,24 +422,11 @@
               "RelativeToolTip": "docker-compose.yml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2025-09-11T06:10:40.941Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-11T06:10:40.941Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.WebApi\\Program.cs",
-              "RelativeDocumentMoniker": "src\\BookMS.WebApi\\Program.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.WebApi\\Program.cs",
-              "RelativeToolTip": "src\\BookMS.WebApi\\Program.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAhwEMAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-11T05:31:42.465Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "JwtOptions.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.Infrastructure\\Security\\JwtOptions.cs",
               "RelativeDocumentMoniker": "src\\BookMS.Infrastructure\\Security\\JwtOptions.cs",
@@ -439,18 +447,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-09-15T01:58:55.394Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.WebApi\\appsettings.json",
-              "RelativeDocumentMoniker": "src\\BookMS.WebApi\\appsettings.json",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\Full-Stack Assignment\\BookManagementApp\\Backend\\src\\BookMS.WebApi\\appsettings.json",
-              "RelativeToolTip": "src\\BookMS.WebApi\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-11T04:46:14.132Z"
             },
             {
               "$type": "Document",

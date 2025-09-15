@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace BookMS.WebApi.Controllers
 {
     [ApiController]
-    //[Authorize]
+    [Authorize]
     [Route("api/[controller]")]
     public class BooksController : ControllerBase
     {
