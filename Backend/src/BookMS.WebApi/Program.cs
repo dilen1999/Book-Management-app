@@ -123,6 +123,17 @@ using (var scope = app.Services.CreateScope())
 {
     var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
     db.Database.Migrate();
+    
+    // Seed default roles if they don't exist
+    if (!db.Roles.Any())
+    {
+        db.Roles.AddRange(
+            new BookMS.Domain.Entities.Roles { Name = "User" },
+            new BookMS.Domain.Entities.Roles { Name = "Admin" },
+            new BookMS.Domain.Entities.Roles { Name = "SuperAdmin" }
+        );
+        db.SaveChanges();
+    }
 }
 
 // ------------------ Middleware pipeline ------------------

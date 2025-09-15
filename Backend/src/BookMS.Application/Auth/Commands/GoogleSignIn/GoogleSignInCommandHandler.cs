@@ -18,6 +18,15 @@ using System.Threading.Tasks;
 
 namespace BookMS.Application.Auth.Commands.GoogleSignIn
 {
+    // Helper class for Google user info deserialization
+    public class GoogleUserInfo
+    {
+        public string? id { get; set; }
+        public string? email { get; set; }
+        public string? name { get; set; }
+        public string? picture { get; set; }
+    }
+
     public class GoogleSignInCommandHandler : IRequestHandler<GoogleSignInCommand, AuthResponseDto>
     {
         private readonly IAppDbContext _db;
@@ -40,28 +49,32 @@ namespace BookMS.Application.Auth.Commands.GoogleSignIn
         public async Task<AuthResponseDto> Handle(GoogleSignInCommand cmd, CancellationToken ct)
         {
             if (string.IsNullOrWhiteSpace(cmd.Request.IdToken))
-                throw new ConflictException("Missing Google id_token.");
+                throw new ConflictException("Missing Google access token.");
 
-            // 1) Validate the Google ID token (signature + audience)
-            GoogleJsonWebSignature.Payload payload;
+            // 1) Get user info from Google using access token
+            string email, name, googleUserId;
             try
             {
-                var settings = new GoogleJsonWebSignature.ValidationSettings
+                using var httpClient = new HttpClient();
+                var response = await httpClient.GetAsync($"https://www.googleapis.com/oauth2/v2/userinfo?access_token={cmd.Request.IdToken}");
+                
+                if (!response.IsSuccessStatusCode)
                 {
-                    Audience = _opts.ClientIds?.Length > 0 ? _opts.ClientIds : null
-                };
-                payload = await GoogleJsonWebSignature.ValidateAsync(cmd.Request.IdToken, settings);
+                    throw new ConflictException("Invalid Google access token.");
+                }
+                
+                var userInfoJson = await response.Content.ReadAsStringAsync();
+                var userInfo = System.Text.Json.JsonSerializer.Deserialize<GoogleUserInfo>(userInfoJson);
+                
+                email = userInfo?.email ?? string.Empty;
+                name = userInfo?.name ?? userInfo?.email ?? "Google User";
+                googleUserId = userInfo?.id ?? string.Empty;
             }
-            catch (InvalidJwtException ex)
+            catch (Exception ex) when (!(ex is ConflictException))
             {
-                _log.LogWarning(ex, "Invalid Google ID token");
+                _log.LogWarning(ex, "Failed to get user info from Google");
                 throw new ConflictException("Invalid Google token.");
             }
-
-            // payload fields we care about
-            var googleUserId = payload.Subject;            // "sub"
-            var email = payload.Email ?? string.Empty;
-            var name = payload.Name ?? payload.Email ?? "Google User";
 
             if (string.IsNullOrWhiteSpace(email))
                 throw new ConflictException("Google token does not contain an email.");

@@ -65,7 +65,7 @@ namespace BookMS.WebApi.Controllers
         public async Task<ActionResult<AuthResponseDto>> Google([FromBody] GoogleSignInRequest req)
         {
             if (req is null || string.IsNullOrWhiteSpace(req.IdToken))
-                return BadRequest(new { error = "idToken is required" });
+                return BadRequest(new { error = "Google token is required" });
 
             var resp = await _mediator.Send(new GoogleSignInCommand(req));
             return Ok(resp);
