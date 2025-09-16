@@ -7,6 +7,7 @@ import { useState } from "react";
 import { BooksApi, Book } from "@/lib/api";
 import { useQuery } from "@tanstack/react-query";
 import { CategoriesApi } from "@/lib/CategoriesApi";
+import { useNavigate } from "react-router-dom";
 
 // Mock data
 const categories = [
@@ -57,6 +58,7 @@ const recentBooks = [
 ];
 
 const Dashboard = () => {
+  const navigate = useNavigate();
   const [searchTerm, setSearchTerm] = useState("");
   const { data: books, isLoading, isError } = useQuery<Book[]>({
     queryKey: ["books"],
@@ -97,7 +99,10 @@ const { data: bookCount, isLoading: isCountLoading, isError: isCountError } =
                   className="pl-10 w-64"
                 />
               </div>
-              <Button className="bg-gradient-primary hover:scale-105 transition-bounce">
+              <Button
+                className="bg-gradient-primary hover:scale-105 transition-bounce"
+                onClick={() => navigate("/books/new")}
+              >
                 <Plus className="h-4 w-4 mr-2" />
                 Add Book
               </Button>
