@@ -11,8 +11,6 @@ namespace BookMS.Application.Auth.Dtos
         public string Email { get; set; } = default!;
         public string Name { get; set; } = default!;
         public string Password { get; set; } = default!;
-
-        // Instead of roleId (GUID), send plain role name
         public string Role { get; set; } = "User";
     }
 }
