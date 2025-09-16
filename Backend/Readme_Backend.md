@@ -54,7 +54,7 @@ Run migrations
 Start the API inside a container
 
 3. Once running, open:
-👉 http://localhost:8080/swagger
+👉 http://localhost:8080/swagger/index.html
 
 to explore all available API endpoints.
 
