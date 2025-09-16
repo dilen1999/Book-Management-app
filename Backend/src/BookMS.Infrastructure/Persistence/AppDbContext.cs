@@ -27,7 +27,7 @@ namespace BookMS.Infrastructure.Persistence
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            // ---------- Books ----------
+            //Books
             modelBuilder.Entity<Books>(b =>
             {
                 b.HasKey(x => x.Id);
@@ -36,7 +36,7 @@ namespace BookMS.Infrastructure.Persistence
                 b.Property(x => x.Isbn).HasMaxLength(32);
             });
 
-            // ---------- Authors ----------
+            // Authors
             modelBuilder.Entity<Authors>(a =>
             {
                 a.HasKey(x => x.Id);
@@ -44,7 +44,7 @@ namespace BookMS.Infrastructure.Persistence
                 a.Property(x => x.Bio).HasMaxLength(2000);
             });
 
-            // ---------- Categories ----------
+            // Categories 
             modelBuilder.Entity<Categories>(c =>
             {
                 c.HasKey(x => x.Id);
@@ -52,14 +52,14 @@ namespace BookMS.Infrastructure.Persistence
                 c.Property(x => x.Description).HasMaxLength(1000);
             });
 
-            // ---------- Roles ----------
+            // Roles
             modelBuilder.Entity<Roles>(r =>
             {
                 r.HasKey(x => x.Id);
                 r.Property(x => x.Name).IsRequired().HasMaxLength(50);
             });
 
-            // ---------- Users (1 Role : many Users) ----------
+            // Users (1 Role : many Users) 
             modelBuilder.Entity<Users>(u =>
             {
                 u.HasKey(x => x.Id);
@@ -73,10 +73,9 @@ namespace BookMS.Infrastructure.Persistence
                  .OnDelete(DeleteBehavior.Restrict);
             });
 
-            // ---------- BookAuthors (M : M via join entity) ----------
+            //  BookAuthors (M : M via join entity)
             modelBuilder.Entity<BookAuthors>(ba =>
             {
-                // composite PK
                 ba.HasKey(x => new { x.BookId, x.AuthorId });
 
                 ba.HasOne(x => x.Books)
@@ -90,10 +89,9 @@ namespace BookMS.Infrastructure.Persistence
                   .OnDelete(DeleteBehavior.Cascade);
             });
 
-            // ---------- BookCategories (M : M via join entity) ----------
+            //BookCategories (M : M via join entity
             modelBuilder.Entity<BookCategories>(bc =>
             {
-                // composite PK
                 bc.HasKey(x => new { x.BookId, x.CategoryId });
 
                 bc.HasOne(x => x.Books)
@@ -107,7 +105,7 @@ namespace BookMS.Infrastructure.Persistence
                   .OnDelete(DeleteBehavior.Cascade);
             });
 
-            // ---------- Refresh Token ----------
+            // Refresh Token 
             modelBuilder.Entity<RefreshToken>(rt =>
             {
                 rt.HasKey(x => x.Id);
@@ -116,7 +114,7 @@ namespace BookMS.Infrastructure.Persistence
                 rt.Property(x => x.ExpiresAt).IsRequired();
 
                 rt.HasOne(x => x.User)
-                  .WithMany()           // or .WithMany(u => u.RefreshTokens) if you add nav on Users
+                  .WithMany()        
                   .HasForeignKey(x => x.UserId)
                   .OnDelete(DeleteBehavior.Cascade);
             });

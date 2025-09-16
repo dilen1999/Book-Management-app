@@ -88,7 +88,6 @@ builder.Services.AddSwaggerGen(options =>
         Version = "v1"
     });
 
-    // ?? Add JWT Bearer Auth
     options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
         Name = "Authorization",
