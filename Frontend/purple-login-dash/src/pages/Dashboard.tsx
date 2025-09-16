@@ -6,6 +6,7 @@ import { BookOpen, Search, Plus, TrendingUp, Users, Star, Filter } from "lucide-
 import { useState } from "react";
 import { BooksApi, Book } from "@/lib/api";
 import { useQuery } from "@tanstack/react-query";
+import { CategoriesApi } from "@/lib/CategoriesApi";
 
 // Mock data
 const categories = [
@@ -59,12 +60,23 @@ const Dashboard = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const { data: books, isLoading, isError } = useQuery<Book[]>({
     queryKey: ["books"],
-    queryFn: () => BooksApi.getAll(1, 20),   // ✅ use API wrapper
+    queryFn: () => BooksApi.getAll(1, 20), 
   });
+
+const { data: bookCount, isLoading: isCountLoading, isError: isCountError } =
+  useQuery<{ totalCount: number }>({
+    queryKey: ["books-count"],
+    queryFn: () => BooksApi.getCount(),
+  });
+
+  const { data: categoriesCount } = useQuery({
+  queryKey: ["categoriesCount"],
+  queryFn: () => CategoriesApi.getCount(),
+});
+
 
   return (
     <div className="min-h-screen bg-gradient-subtle">
-      {/* Header */}
       <header className="bg-card shadow-card border-b">
         <div className="max-w-7xl mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
@@ -105,15 +117,32 @@ const Dashboard = () => {
         {/* Stats Cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
           <Card className="bg-gradient-card shadow-card border-0 hover:shadow-primary transition-smooth">
-            <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-              <CardTitle className="text-sm font-medium text-muted-foreground">Total Books</CardTitle>
-              <BookOpen className="h-4 w-4 text-primary" />
-            </CardHeader>
-            <CardContent>
-              <div className="text-2xl font-bold text-primary">143</div>
-              <p className="text-xs text-muted-foreground">+12 from last month</p>
-            </CardContent>
-          </Card>
+  <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
+    <CardTitle className="text-sm font-medium text-muted-foreground">
+      Total Books
+    </CardTitle>
+    <BookOpen className="h-4 w-4 text-primary" />
+  </CardHeader>
+  <CardContent>
+    {isCountLoading && (
+      <div className="text-muted-foreground text-sm">Loading...</div>
+    )}
+    {isCountError && (
+      <div className="text-red-500 text-sm">Failed to load</div>
+    )}
+    {bookCount && (
+      <>
+        <div className="text-2xl font-bold text-primary">
+          {bookCount.totalCount}
+        </div>
+        <p className="text-xs text-muted-foreground">
+          +12 from last month
+        </p>
+      </>
+    )}
+  </CardContent>
+</Card>
+
 
           <Card className="bg-gradient-card shadow-card border-0 hover:shadow-primary transition-smooth">
             <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
@@ -132,9 +161,11 @@ const Dashboard = () => {
               <Filter className="h-4 w-4 text-primary" />
             </CardHeader>
             <CardContent>
-              <div className="text-2xl font-bold text-primary">5</div>
-              <p className="text-xs text-muted-foreground">Different genres</p>
-            </CardContent>
+  <div className="text-2xl font-bold text-primary">
+    {isLoading ? "…" : categoriesCount?.totalCount ?? 0}
+  </div>
+  <p className="text-xs text-muted-foreground">Different genres</p>
+</CardContent>
           </Card>
 
           <Card className="bg-gradient-card shadow-card border-0 hover:shadow-primary transition-smooth">

@@ -17,7 +17,7 @@ namespace BookMS.WebApi.Controllers
         }
 
         [HttpGet("count")]
-        // [Authorize] 
+        [Authorize] 
         [ProducesResponseType(typeof(int), StatusCodes.Status200OK)]
         public async Task<ActionResult<int>> GetCount()
         {

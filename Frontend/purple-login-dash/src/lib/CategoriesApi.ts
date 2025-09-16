@@ -1,20 +1,13 @@
 import { API_BASE } from "@/config/apiConfig";
 
-export type Book = {
-  id: string;
-  title: string;
-  isbn: string;
-  publishedYear: number;
-};
-
 async function apiFetch<T>(url: string, options?: RequestInit): Promise<T> {
-  const token = sessionStorage.getItem("accessToken"); 
+  const token = sessionStorage.getItem("accessToken");
 
   const res = await fetch(`${API_BASE}${url}`, {
     headers: {
       Accept: "application/json",
       "Content-Type": "application/json",
-      ...(token ? { Authorization: `Bearer ${token}` } : {}), 
+      ...(token ? { Authorization: `Bearer ${token}` } : {}),
       ...options?.headers,
     },
     ...options,
@@ -27,13 +20,7 @@ async function apiFetch<T>(url: string, options?: RequestInit): Promise<T> {
   return res.json();
 }
 
-// BOOKS API
-export const BooksApi = {
-  getAll: (page = 1, pageSize = 20) =>
-    apiFetch<Book[]>(`/Books?page=${page}&pageSize=${pageSize}`),
-
+export const CategoriesApi = {
   getCount: () =>
-    apiFetch<{ totalCount: number }>(`/Books/count`), 
+    apiFetch<{ totalCount: number }>(`/Categories/count`), 
 };
-
-
