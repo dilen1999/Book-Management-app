@@ -30,7 +30,6 @@ services:
         condition: service_healthy
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-      # This overrides ConnectionStrings:DefaultConnection in appsettings.json
       - ConnectionStrings__DefaultConnection=Server=mssql,1433;Database=BookMS;User Id=sa;Password=${SA_PASSWORD};Encrypt=True;TrustServerCertificate=True;
       - ASPNETCORE_URLS=http://+:8080
       - Google__ClientIds__0=${GOOGLE_CLIENT_ID}
